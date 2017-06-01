@@ -1,0 +1,27 @@
+{
+  "name": "alibeibei/cache",
+  "description": "cache",
+  "minimum-stability": "dev",
+  "keywords": [
+    "file",
+    "cache",
+    "redis",
+    "memcache",
+    "memcached",
+    "ssdb"
+  ],
+  "config": {
+    "process-timeout": 1800
+  },
+  "authors": [
+    {
+      "name": "alibeibei",
+      "email": "1939612669@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "cache": "src"
+    }
+  }
+}
