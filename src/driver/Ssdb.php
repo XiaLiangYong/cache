@@ -144,7 +144,7 @@ class Ssdb extends Driver
     }
 
     /**
-     * 清除缓存
+     * 清除缓存 （不支持flushdb）
      * @access public
      * @param string $tag 标签名
      * @return boolean
